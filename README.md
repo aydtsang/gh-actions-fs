@@ -21,6 +21,7 @@ development process (i.e. build, test, deploy).
 - Sequential or Parallel _Jobs_
 - Virtual Machine or Container _Runner_
 - Environment Variables
+- Artifacts
 
 ### Workflows
 > A workflow is a configurable automated process that will run one or more jobs. 
@@ -40,6 +41,11 @@ Things I Noticed:
 - List of [event types](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
 - The branches and branches-ignore keywords accept glob patterns that use 
 characters like *, **, +, ?, ! and others to match more than one branch name
+- What is `[actions/checkout@v3](https://github.com/actions/checkout)`?
+  - This just checks out all of the files in your repo and makes it available to
+  your other actions
+- shell commands can pretty much run anywhere inside of steps.
+- How do you test Github Actions without destroying anything in production?
 
 ### Events
 An event is a specific activity in a repository that triggers a workflow run.
