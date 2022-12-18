@@ -1,8 +1,5 @@
 # Learning Github Actions From scratch
 
-TODO:
-- LINK TO RECORDING
-
 This repo is a documented guide to learning Github Actions from scratch.
 
 ## The Plan
@@ -46,7 +43,7 @@ characters like *, **, +, ?, ! and others to match more than one branch name
   your other actions
 - shell commands can pretty much run anywhere inside of steps.
 - How do you test Github Actions without destroying anything in production?
-- run when paths have changes
+- Specify Actions to run only when certain paths have changes
 
 ### Events
 An event is a specific activity in a repository that triggers a workflow run.
