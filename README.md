@@ -20,6 +20,7 @@ development process (i.e. build, test, deploy).
 - _Workflows_
 - Sequential or Parallel _Jobs_
 - Virtual Machine or Container _Runner_
+- Environment Variables
 
 ### Workflows
 > A workflow is a configurable automated process that will run one or more jobs. 
@@ -33,6 +34,12 @@ Key Points:
 - You can reference a workflow within another workflow
 
 [Using Workflows](https://docs.github.com/en/actions/using-workflows)
+
+Things I Noticed:
+- No authentication required (besides having enough permission to trigger)
+- List of [event types](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
+- The branches and branches-ignore keywords accept glob patterns that use 
+characters like *, **, +, ?, ! and others to match more than one branch name
 
 ### Events
 An event is a specific activity in a repository that triggers a workflow run.
