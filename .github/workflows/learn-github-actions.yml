@@ -16,5 +16,6 @@ jobs:
         cache: 'pip'
     - run:  pip install -r requirements.txt
   run-pytest:
+    runs-on: ubuntu-latest
     steps:
     - run: pytest -vrP
